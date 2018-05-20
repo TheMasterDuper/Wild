@@ -1,0 +1,13 @@
+name: Wild
+author: ["BlazeTheDev", "GageGamesHD"]
+version: 1.2
+description: A wild teleporting plugin for PocketMine
+main: GageGamesHD\Wild\Wild
+api: 3.0.0-ALPHA12
+commands:
+ wild:
+  description: Teleports you to a random location
+  permission: wild.command
+permissions:
+ wild.command:
+  default: true
